@@ -44,10 +44,8 @@ int main() {
                 }
                 //uncomment for part 1
                 /*for (k = 1; k < strlen(derivedstr)-1; k++) {
-                   // printf("derstr: %s\n", derivedstr);
                     if (derivedstr[k] != '0') {
                         fail = true;
-                        //printf("failed\n");
                         break;
                     }
                 }*/

@@ -68,7 +68,6 @@ int main() {
             pos %= 100;
         }
 
-        printf("position: %d\n old: %d\n", pos, old);
         if (old + ((move*dir)%100) >= 100 && old != 0) {
             total++;
         }
