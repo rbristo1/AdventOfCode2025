@@ -63,8 +63,6 @@ int main() {
                         continue;
                     }
                     total += i;
-                    printf("full num: %lu substring: %lu newTotal: %lu\n", i, subnum, total);
-                
                     break;
                 }
                 
