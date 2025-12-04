@@ -74,7 +74,7 @@ int main() {
         if (old + ((move*dir)%100) <= 0 && old != 0) {
             total++;
         }
-        total += abs(move/100);
+        total += move/100;
         
 
     }
