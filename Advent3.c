@@ -45,6 +45,7 @@ void sighandler(int sig) {
     }
 }*/
 
+//part 2
 int main() {
     signal(SIGINT, sighandler);
     char buf[256];
